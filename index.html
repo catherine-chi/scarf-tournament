@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scarf Color Tournament</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Scarf Color Tournament</h1>
+            <p class="subtitle">Find your favorite scarf color through head-to-head comparisons</p>
+        </header>
+
+        <!-- Setup Phase -->
+        <div id="setup-phase" class="phase">
+            <div class="setup-container">
+                <h2>Scarf Color Tournament</h2>
+                <p>Compare your scarf colors to find your favorite!</p>
+                
+                <button id="start-tournament-btn" class="btn btn-success">Start Tournament</button>
+                
+                <div id="image-preview-container" class="image-preview-container">
+                    <!-- Preview images will be added here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Tournament Phase -->
+        <div id="tournament-phase" class="phase hidden">
+            <div class="tournament-info">
+                <p id="round-info">Round 1</p>
+            </div>
+
+            <div class="comparison-container">
+                <div class="option option-left" id="option-1">
+                    <h3 class="option-name" id="name-1"></h3>
+                    <div class="image-wrapper">
+                        <img id="image-1" src="" alt="Option 1">
+                    </div>
+                    <button class="btn btn-select" data-option="1">Choose This</button>
+                </div>
+
+                <div class="vs-divider">
+                    <span>VS</span>
+                </div>
+
+                <div class="option option-right" id="option-2">
+                    <h3 class="option-name" id="name-2"></h3>
+                    <div class="image-wrapper">
+                        <img id="image-2" src="" alt="Option 2">
+                    </div>
+                    <button class="btn btn-select" data-option="2">Choose This</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Winner Phase -->
+        <div id="winner-phase" class="phase hidden">
+            <div class="winner-container">
+                <h2>🏆 Winner!</h2>
+                <div class="winner-image-wrapper">
+                    <img id="winner-image" src="" alt="Winner">
+                </div>
+                <p class="winner-text">This is your favorite scarf color!</p>
+                
+                <div id="decision-tree-container" class="decision-tree-container">
+                    <h3>Your Decision Tree</h3>
+                    <div id="decision-tree" class="decision-tree"></div>
+                </div>
+                
+                <button id="restart-btn" class="btn btn-primary">Start New Tournament</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

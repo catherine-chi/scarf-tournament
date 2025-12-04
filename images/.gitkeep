@@ -1,0 +1,11 @@
+# Place your scarf images in this folder
+# Supported formats: .jpg, .jpeg, .png, .gif, .webp
+# 
+# After adding images, update the IMAGE_PATHS array in script.js
+# Example:
+# const IMAGE_PATHS = [
+#     'images/scarf1.jpg',
+#     'images/scarf2.jpg',
+#     'images/scarf3.jpg',
+# ];
+
