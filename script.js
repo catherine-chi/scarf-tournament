@@ -85,7 +85,6 @@ class ScarfTournament {
         this.startTournamentBtn = document.getElementById('start-tournament-btn');
         
         // Tournament elements
-        this.roundInfo = document.getElementById('round-info');
         this.image1 = document.getElementById('image-1');
         this.image2 = document.getElementById('image-2');
         this.name1 = document.getElementById('name-1');
@@ -199,9 +198,6 @@ class ScarfTournament {
             this.nextComparison();
             return;
         }
-        
-        // Update round info
-        this.roundInfo.textContent = `Round ${this.roundNumber}`;
         
         // Get next two images
         const option1 = this.currentRound.shift();
