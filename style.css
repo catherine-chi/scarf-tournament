@@ -205,7 +205,7 @@ header h1 {
 .comparison-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
@@ -215,7 +215,7 @@ header h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .option-name {
@@ -232,7 +232,7 @@ header h1 {
 
 .image-wrapper {
     width: 100%;
-    max-height: 400px;
+    height: 200px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -294,7 +294,6 @@ header h1 {
     width: 100%;
     max-width: 500px;
     margin: 0 auto 30px;
-    aspect-ratio: 1;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
@@ -338,7 +337,7 @@ header h1 {
 .bracket-wrapper {
     display: flex;
     flex-direction: row-reverse;
-    gap: 20px;
+    gap: 10px;
     min-width: fit-content;
     padding: 20px 0;
 }
@@ -483,7 +482,7 @@ header h1 {
 
     .comparison-container {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 10px;
     }
 
     .vs-divider {
